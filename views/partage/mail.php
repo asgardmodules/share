@@ -1,7 +1,7 @@
 <?php if($envoye): ?>
 <br>Email envoyé !
 <?php else: ?>
-<?php \Flash::showAll() ?>
+<?php \Coxis\Core\App::get('flash')->showAll() ?>
 <br>
 <?php $form->open() ?>
 	<label>Adresse courrier de l'émetteur</label><br>
