@@ -2,7 +2,7 @@
 /**
 @Prefix('partage')
 */
-class PartageController extends \Coxis\Core\Controller {
+class PartageController extends \Asgard\Core\Controller {
 	/**
 	@Route('mail/:id')
 	*/
@@ -26,7 +26,7 @@ Voici son message : '.$this->form->message->getValue();
 				$this->envoye = true;
 			}
 			else {
-				\Coxis\Core\App::get('flash')->addError(Tools::flateArray($this->form->errors()));
+				\Asgard\Core\App::get('flash')->addError(Tools::flateArray($this->form->errors()));
 			}
 		}
 	}

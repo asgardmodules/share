@@ -1,11 +1,11 @@
 {
-	"name": "coxis/share",
+	"name": "asgard/share",
 	"license": "MIT",
 	"authors": [{
 		"name": "Michel Hognerud",
 		"email": "michel@hognerud.net"
 	}],
     "autoload": {
-        "psr-0": {"Coxis\\Share": "../.."}
+        "psr-0": {"Asgard\\Share": "../.."}
     }
 }
